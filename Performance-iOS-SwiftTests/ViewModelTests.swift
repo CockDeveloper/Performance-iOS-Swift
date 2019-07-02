@@ -1,5 +1,5 @@
 //
-//  Performance_iOS_SwiftTests.swift
+//  ViewModelTests.swift
 //  Performance-iOS-SwiftTests
 //
 //  Created by Nguyễn Trọng Anh Tuấn on 02/07/2019.
@@ -9,7 +9,7 @@
 import XCTest
 @testable import Performance_iOS_Swift
 
-class Performance_iOS_SwiftTests: XCTestCase {
+class ViewModelTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
