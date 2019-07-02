@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2B1BE9AD22CADCA700BB4731 /* UIViewController+Extentsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1BE9AB22CADCA700BB4731 /* UIViewController+Extentsion.swift */; };
 		2B1BE9AE22CADCA700BB4731 /* SwiftyBeaver+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1BE9AC22CADCA700BB4731 /* SwiftyBeaver+Extension.swift */; };
+		2B4FF9E422CBAFC100D55B74 /* PerformanceIOSSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4FF9E322CBAFC100D55B74 /* PerformanceIOSSwiftUITests.swift */; };
 		2BCA57D922CAD1AD005F4C52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCA57D822CAD1AD005F4C52 /* AppDelegate.swift */; };
 		2BCA57DB22CAD1AD005F4C52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCA57DA22CAD1AD005F4C52 /* ViewController.swift */; };
 		2BCA57DE22CAD1AD005F4C52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCA57DC22CAD1AD005F4C52 /* Main.storyboard */; };
@@ -20,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2B4FF9E622CBAFC100D55B74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BCA57CD22CAD1AD005F4C52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BCA57D422CAD1AD005F4C52;
+			remoteInfo = "Performance-iOS-Swift";
+		};
 		2BCA57EA22CAD1AF005F4C52 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2BCA57CD22CAD1AD005F4C52 /* Project object */;
@@ -32,6 +40,9 @@
 /* Begin PBXFileReference section */
 		2B1BE9AB22CADCA700BB4731 /* UIViewController+Extentsion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extentsion.swift"; sourceTree = "<group>"; };
 		2B1BE9AC22CADCA700BB4731 /* SwiftyBeaver+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftyBeaver+Extension.swift"; sourceTree = "<group>"; };
+		2B4FF9E122CBAFC100D55B74 /* Performance-iOS-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Performance-iOS-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4FF9E322CBAFC100D55B74 /* PerformanceIOSSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceIOSSwiftUITests.swift; sourceTree = "<group>"; };
+		2B4FF9E522CBAFC100D55B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B92693413FFAD4539FC35AC /* Pods-Performance-iOS-SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Performance-iOS-SwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-Performance-iOS-SwiftTests/Pods-Performance-iOS-SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2BCA57D522CAD1AD005F4C52 /* Performance-iOS-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Performance-iOS-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BCA57D822CAD1AD005F4C52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +62,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2B4FF9DE22CBAFC100D55B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2BCA57D222CAD1AD005F4C52 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -90,11 +108,21 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		2B4FF9E222CBAFC100D55B74 /* Performance-iOS-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B4FF9E322CBAFC100D55B74 /* PerformanceIOSSwiftUITests.swift */,
+				2B4FF9E522CBAFC100D55B74 /* Info.plist */,
+			);
+			path = "Performance-iOS-SwiftUITests";
+			sourceTree = "<group>";
+		};
 		2BCA57CC22CAD1AD005F4C52 = {
 			isa = PBXGroup;
 			children = (
 				2BCA57D722CAD1AD005F4C52 /* Performance-iOS-Swift */,
 				2BCA57EC22CAD1AF005F4C52 /* Performance-iOS-SwiftTests */,
+				2B4FF9E222CBAFC100D55B74 /* Performance-iOS-SwiftUITests */,
 				2BCA57D622CAD1AD005F4C52 /* Products */,
 				25093A9CAFFFB8DE12ECBEF7 /* Pods */,
 				F9CAD8F1906095F46D87ED3E /* Frameworks */,
@@ -106,6 +134,7 @@
 			children = (
 				2BCA57D522CAD1AD005F4C52 /* Performance-iOS-Swift.app */,
 				2BCA57E922CAD1AF005F4C52 /* Performance-iOS-SwiftTests.xctest */,
+				2B4FF9E122CBAFC100D55B74 /* Performance-iOS-SwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,6 +174,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2B4FF9E022CBAFC100D55B74 /* Performance-iOS-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4FF9EA22CBAFC100D55B74 /* Build configuration list for PBXNativeTarget "Performance-iOS-SwiftUITests" */;
+			buildPhases = (
+				2B4FF9DD22CBAFC100D55B74 /* Sources */,
+				2B4FF9DE22CBAFC100D55B74 /* Frameworks */,
+				2B4FF9DF22CBAFC100D55B74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B4FF9E722CBAFC100D55B74 /* PBXTargetDependency */,
+			);
+			name = "Performance-iOS-SwiftUITests";
+			productName = "Performance-iOS-SwiftUITests";
+			productReference = 2B4FF9E122CBAFC100D55B74 /* Performance-iOS-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		2BCA57D422CAD1AD005F4C52 /* Performance-iOS-Swift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BCA57F222CAD1AF005F4C52 /* Build configuration list for PBXNativeTarget "Performance-iOS-Swift" */;
@@ -194,6 +241,10 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Cock Developer";
 				TargetAttributes = {
+					2B4FF9E022CBAFC100D55B74 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2BCA57D422CAD1AD005F4C52;
+					};
 					2BCA57D422CAD1AD005F4C52 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -218,11 +269,19 @@
 			targets = (
 				2BCA57D422CAD1AD005F4C52 /* Performance-iOS-Swift */,
 				2BCA57E822CAD1AF005F4C52 /* Performance-iOS-SwiftTests */,
+				2B4FF9E022CBAFC100D55B74 /* Performance-iOS-SwiftUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2B4FF9DF22CBAFC100D55B74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2BCA57D322CAD1AD005F4C52 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -325,6 +384,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2B4FF9DD22CBAFC100D55B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4FF9E422CBAFC100D55B74 /* PerformanceIOSSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2BCA57D122CAD1AD005F4C52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,6 +414,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2B4FF9E722CBAFC100D55B74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BCA57D422CAD1AD005F4C52 /* Performance-iOS-Swift */;
+			targetProxy = 2B4FF9E622CBAFC100D55B74 /* PBXContainerItemProxy */;
+		};
 		2BCA57EB22CAD1AF005F4C52 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2BCA57D422CAD1AD005F4C52 /* Performance-iOS-Swift */;
@@ -374,6 +446,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2B4FF9E822CBAFC100D55B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TS57QM5ZC;
+				INFOPLIST_FILE = "Performance-iOS-SwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.cock.Performance-iOS-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Performance-iOS-Swift";
+			};
+			name = Debug;
+		};
+		2B4FF9E922CBAFC100D55B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TS57QM5ZC;
+				INFOPLIST_FILE = "Performance-iOS-SwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.cock.Performance-iOS-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Performance-iOS-Swift";
+			};
+			name = Release;
+		};
 		2BCA57F022CAD1AF005F4C52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -577,6 +689,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2B4FF9EA22CBAFC100D55B74 /* Build configuration list for PBXNativeTarget "Performance-iOS-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4FF9E822CBAFC100D55B74 /* Debug */,
+				2B4FF9E922CBAFC100D55B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2BCA57D022CAD1AD005F4C52 /* Build configuration list for PBXProject "Performance-iOS-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
